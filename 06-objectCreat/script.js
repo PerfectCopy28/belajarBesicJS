@@ -12,8 +12,6 @@ const methodMahasiswa = {
 		console.log(`Halo ${this.nama}, selamat tidur`);
 	}
 };
-
-
 function Mahasiswa(nama,energi) {
 	let mahasiswa = Object.create(methodMahasiswa);
 	mahasiswa.nama = nama;
@@ -24,5 +22,4 @@ function Mahasiswa(nama,energi) {
 
 	return mahasiswa;
 };
-
 let data = Mahasiswa ('Candra',10);
